@@ -17,3 +17,6 @@
 - HTML5
 - CSS3
 - JavaScript
+
+#### API utilizada no projeto:
+- Advice Slip JSON API
