@@ -6,6 +6,12 @@ body {
     font-weight: 800;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 250px;
+}
+
 .container{
     display: flex;
     justify-content: center;
@@ -31,7 +37,7 @@ body {
     margin-top: 30px;
 }
 
-.card .descricao-conselho{
+.card .descricao-conselho, .autor{
     font-size: 23px;
     padding: 23px;
     text-align: center;
@@ -51,4 +57,15 @@ body {
     color: #53FFAB;
     cursor: pointer;
     box-shadow: 0 5px 15px var(--cor-botao-conselho);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    color: var(--text-color);
 }
